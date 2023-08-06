@@ -1,0 +1,4 @@
+services:
+  App\Controllers\LeapYearController:
+    arguments:
+      $model: '@App\Models\LeapYear'
